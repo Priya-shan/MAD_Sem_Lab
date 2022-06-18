@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30sp"
+
+    tools:context=".Qn_24">
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="30sp"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:text=""
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <EditText
+        android:id="@+id/subj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="30sp"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:text=""
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_margin="30sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <Button
+        android:id="@+id/qn_24_b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Button"
+
+        android:layout_margin="30sp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="573dp" />
+</LinearLayout>

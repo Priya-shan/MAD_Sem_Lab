@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Sem_Lab</string>
+    <string-array name="country">
+        <item>India</item>
+        <item>China</item>
+        <item>Japan</item>
+    </string-array>
 </resources>
